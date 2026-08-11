@@ -83,8 +83,9 @@ section:first-of-type { border-top: none; }
 .about p { color: var(--muted); font-size: 17px; margin-bottom: 12px; }
 
 /* Skills */
-.skill-group { margin-bottom: 20px; }
-.skill-group h3 { font-size: 15px; color: var(--muted); margin-bottom: 10px; }
+.skill-group { margin-bottom: 24px; }
+.skill-group h3 { font-size: 16px; color: var(--text); font-weight: 700; margin-bottom: 2px; }
+.skill-note { font-size: 13px; color: var(--muted); margin-bottom: 10px; }
 .chips { display: flex; flex-wrap: wrap; gap: 8px; }
 .chip {
   background: var(--surface);
@@ -105,6 +106,16 @@ section:first-of-type { border-top: none; }
 .card-head { display: flex; justify-content: space-between; align-items: baseline; gap: 12px; flex-wrap: wrap; }
 .card h3 { font-size: 20px; }
 .card .period { color: var(--muted); font-size: 14px; white-space: nowrap; }
+.card .role-tag {
+  display: inline-block;
+  margin-top: 8px;
+  padding: 2px 10px;
+  border-radius: 999px;
+  background: rgba(88, 166, 255, 0.12);
+  color: var(--accent);
+  font-size: 12px;
+  font-weight: 600;
+}
 .card .summary { color: var(--muted); margin: 8px 0 14px; }
 .card ul { list-style: none; margin-bottom: 14px; }
 .card li { position: relative; padding-left: 18px; margin-bottom: 6px; font-size: 15px; }

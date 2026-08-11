@@ -11,6 +11,7 @@ export default function Projects() {
               <h3>{p.title}</h3>
               <span className="period">{p.period}</span>
             </div>
+            {p.role ? <p className="role-tag">{p.role}</p> : null}
             <p className="summary">{p.summary}</p>
             <ul>
               {p.highlights.map((h, j) => (

@@ -8,6 +8,7 @@ export default function Skills() {
         {skills.map((group) => (
           <div className="skill-group" key={group.group}>
             <h3>{group.group}</h3>
+            {group.note ? <p className="skill-note">{group.note}</p> : null}
             <div className="chips">
               {group.items.map((item) => (
                 <span className="chip" key={item}>{item}</span>
