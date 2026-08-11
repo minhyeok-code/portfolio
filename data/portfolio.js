@@ -6,7 +6,7 @@
 export const profile = {
   name: "최민혁",
   role: "Backend Engineer",
-  tagline: "서버 개발과 배포 자동화로 안정적인 서비스를 만듭니다.",
+  tagline: "무엇을 만들지 기획하고, 설계를 성능과 숫자로 증명하는 백엔드 개발자입니다.",
   email: "96edum@gmail.com",
   github: "https://github.com/minhyeok-code",
   blog: "", // 블로그가 있으면 URL, 없으면 빈 문자열
